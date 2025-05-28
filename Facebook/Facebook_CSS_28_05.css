@@ -10,9 +10,11 @@ h1 {
     font-size: 70px;
 }
 .frase {
-    font-size: 30px;
+    font-size: 25px;
 }
+.p {
 
+}
 .div-direita {
     flex-direction: column;
 }
@@ -22,6 +24,7 @@ h1 {
 }
 .card-login {
     background-color: white;
+    border-radius: 10px;
     width: 400px;
     height: 400px;
     flex-direction: column;
@@ -62,3 +65,30 @@ form {
     font-size: 20px;
     font-weight: bold;
 }
+.Bverde {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.senha {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.senha a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+.linha {
+    border: 1px solid;
+    width: 300px;
+    border-color: rgb(201, 199, 199);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
