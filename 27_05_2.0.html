@@ -1,0 +1,76 @@
+    <!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS.com</title>
+    <style>
+        .div-azul {
+            background-color:cornflowerblue;
+            border-radius: 10px;
+            border: 4px solid cornflowerblue;
+            padding: 10px;   /*Espaçamento do texto em relação a borda*/
+            margin: 2%;  /*Espaçamento das divs*/
+        }
+        .div-verde {
+            background-color: green;
+            border: 4px solid green;
+            border-radius: 10px; /*Arredondamento da borda, da borda da div*/
+            padding: 10px; /*Espaçamento do texto em relação a borda*/
+        }
+        table, tr, th, td {
+            border-collapse: collapse;
+            border: 2px solid       
+        }
+        table {
+            width: 100%;
+            height: 200px;
+            border: 4px solid;
+        }
+        .div-azul p {
+            font-family: fantasy;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Aula - 27/05</h1>
+        <table style="background-color: burlywood;">
+            <tr>
+                <th style="background-color:chocolate;">Nome</th>
+                <th style="background-color:cadetblue;">Idade</th>
+            </tr>
+            <tr>
+                <th style="border: 1px solid;">Yury</th>
+                <th style="border: 1px solid;">18</th>
+            </tr>
+            <tr>
+                <th style="border: 1px solid;">Natália</th>
+                <th style="border: 1px solid;">20</th>
+            </tr>
+            <tr>
+                <th style="border: 1px solid;">Amanda</th>
+                <th style="border: 1px solid;">20</th>
+            </tr>
+            <tr>
+                <th style="border: 1px solid;">Eduarda</th>
+                <th style="border: 1px solid;">25</th>
+            </tr>
+        </table><br>
+
+        <div class="div-azul">
+            <h2 style="background-color: blue; border: 2px solid;">Título 1</h2>
+
+        <p><b><big>Um texto aqui</big></b>:<i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida, mi ac cursus tempus, sapien sapien egestas lacus, et tempor quam nisl vel massa. Morbi eget venenatis risus, vitae rutrum ligula. Cras cursus euismod ipsum, facilisis posuere mi commodo maximus. Aenean eu vehicula erat, ut bibendum neque. Sed tellus massa, faucibus in magna vel, rhoncus aliquam nunc. Mauris porttitor in dui in dignissim. Curabitur ut sodales turpis. Vestibulum dictum urna id ornare mattis. Curabitur vulputate odio vulputate ultricies suscipit. Nullam imperdiet elit in euismod fringilla. Fusce quis ante lobortis, scelerisque diam non, auctor risus. </i></p>
+        </div>
+
+        <div class="div-verde">
+            <h2 style="background-color: greenyellow; border: 2px solid;">Título 2</h2>
+        <p><b><big>Um texto aqui</big></b>:<i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida, mi ac cursus tempus, sapien sapien egestas lacus, et tempor quam nisl vel massa. Morbi eget venenatis risus, vitae rutrum ligula. Cras cursus euismod ipsum, facilisis posuere mi commodo maximus. Aenean eu vehicula erat, ut bibendum neque. Sed tellus massa, faucibus in magna vel, rhoncus aliquam nunc. Mauris porttitor in dui in dignissim. Curabitur ut sodales turpis. Vestibulum dictum urna id ornare mattis. Curabitur vulputate odio vulputate ultricies suscipit. Nullam imperdiet elit in euismod fringilla. Fusce quis ante lobortis, scelerisque diam non, auctor risus. </i></p>
+
+        </div>
+        <img src="https://portal.ifrn.edu.br/media/images/10338_Nota_Publica.width-500.png" alt="">
+    </div>    
+</body>
+</html>
