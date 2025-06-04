@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 10px;
+    padding: 10px; 
     gap: 10px;
 }
 a{
@@ -45,12 +45,13 @@ a:hover{
 .int{
     background-color: #303134;
     color: white;
-    border: none;
+    border: 1px solid transparent;
+    cursor: pointer;
     border-radius: 5px;
     width: 135px;
     height: 36px;
 }
-.interação:hover{
-    border-color: white;
-    
+
+.int:hover{
+    border-color: whitesmoke;
 }

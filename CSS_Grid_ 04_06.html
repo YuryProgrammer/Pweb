@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula_Grid</title>
+
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-areas: 
+            "header header"   
+            "sidebar main"
+            "footer footer";
+            grid-template-columns: 400px 1fr;
+            grid-template-rows: auto auto auto;
+            height: 100vh;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .header{
+            grid-area: header;
+            background-color: green;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: cadetblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-content{
+            grid-area: main;
+            background-color: blue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer{
+            grid-area: footer;
+            background-color: red;
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            width: 500px;
+            height: 500px;
+        }
+        input[type="text"]{
+            border: none;
+            border-radius: 5px;
+            height: 20px;
+        }
+        input[type="text"]:hover{
+            background-color: gainsboro;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header"><h1>Cabeçalho</h1></header>
+
+        <nav class="sidebar"><h1>Menu lateral</h1>
+            <input type="text" placeholder="Digite Aqui">
+            <input type="submit" value="Pesquisar">
+        </nav>
+
+        <main class="main-content"><h1>Conteúdo principal</h1>
+            <h3><p>Lorem ipsum dolor sit amet. Cum natus omnis et voluptate dolores aut quia quibusdam ut magni sunt sit velit aliquam? 
+            Aut facilis iure hic numquam nostrum quo doloremque unde quo facilis excepturi in minima maiores eum numquam autem.
+            Et aperiam libero aut animi quia At atque dolores aut nulla suscipit sit veniam voluptates eos temporibus galisum! 
+            Est culpa illum est veniam quia sed eveniet minima a culpa perferendis cum illum dicta non quibusdam ipsa.
+            Et dolorem similique eum labore autem non tempore doloribus. Quo dignissimos maxime qui galisum velit et esse laborum ut voluptas temporibus sit voluptas labore in magnam possimus. 
+            Ea labore asperiores et sunt maxime eum dolores cupiditate.
+        </p></h3>
+
+        <img src="https://miro.medium.com/v2/resize:fit:3608/0*og90_m1gsg9iOY7i.png" alt="image">
+        </main>
+        <footer class="footer"><h1>Rodapé</h1></footer>
+    </div>
+
+    
+</body>
+</html>
